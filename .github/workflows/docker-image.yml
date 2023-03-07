@@ -23,4 +23,4 @@ jobs:
       run:
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/simple-node
+      run: docker push sha3baan/simple-node
